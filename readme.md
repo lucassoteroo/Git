@@ -81,3 +81,15 @@ git log
 ```sh
 git log --oneline
 ```
+
+- Exibe repositórios remotos:
+
+```sh
+git remote
+```
+
+- Vincula repositório local com remoto:
+
+```sh
+git remote add origin <url do projeto>
+```
