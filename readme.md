@@ -256,6 +256,36 @@ git fetch origin <branch>
 git cherry-pick <commit>
 ```
 
+- Inicia a busca pelo momento que houve o erro:
+
+```sh
+git bisect start
+```
+
+- Aponta para a busca o momento em que estava tudo certo:
+
+```sh
+git bisect good <commit>
+```
+
+- Aponta para a busca o momento em que deu tudo errado:
+
+```sh
+git bisect bad <commit>
+```
+
+- Ele continua a busca até encontrar o commit que iniciou o problema:
+
+```sh
+git bisect good/bad (novamente)
+```
+
+- Finaliza a busca:
+
+```sh
+git bisect reset
+```
+
 > Apenas local 
 
 - Desfaz o último commit:
