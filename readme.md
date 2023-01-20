@@ -250,6 +250,12 @@ git fetch
 git fetch origin <branch>
 ```
 
+- Traz apenas um commit especifico de uma branch diferente da atual:
+
+```sh
+git cherry-pick <commit>
+```
+
 > Apenas local 
 
 - Desfaz o último commit:
