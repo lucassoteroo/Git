@@ -111,3 +111,33 @@ git pull
 ```sh
 git clone <url do projeto>
 ```
+
+- Cria uma tag:
+
+```sh
+git tag <nome da tag>
+```
+
+- Cria tag com anotação:
+
+```sh
+git tag -a <nome da tag> -m "Versão 1.0"
+```
+
+- Cria tag a partir de um commit:
+
+```sh
+git tag -a <nome da tag> <commit>
+```
+
+- Envia tag para repositório remoto:
+
+```sh
+git push <nome da tag>
+```
+
+- Cria todas as tags para o repositório remoto:
+
+```sh
+git push --tags
+```
