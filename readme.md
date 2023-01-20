@@ -258,8 +258,52 @@ git reset --hard HEAD~1
 git reset --mixed <commit/HEAD>
 ```
 
-- o commit é desfeito, porém as alterações não são perdidas, faltando apenas commitar:
+- O commit é desfeito, porém as alterações não são perdidas, faltando apenas commitar:
 
 ```sh
 git reset --soft  <commit/HEAD>
+```
+
+> Arriscado
+
+- Cola linha do tempo local por cima da linha do tempo remota:
+
+```sh
+git push --force
+```
+
+- Fará o force somente se nenhuma alteração for perdida no processo:
+
+```sh
+git push --force-with-lease
+```
+
+- Troca a base trazendo as alterações da branch baseada para branch atual:
+
+```sh
+git rebase <branch para se basear>
+```
+
+- Aborta o rebase caso tenha conflito:
+
+```sh
+git rebase --abort
+```
+
+- Continua o rebase após resolução do conflito:
+
+```sh
+git rebase --continue
+```
+
+- Busca commits remotos, e aplica as mudanças do remoto em local:
+
+```sh
+git pull --rebase
+```
+
+- Intera 3 commits para torna-los 1 commit (squash):
+
+```sh
+git rebase --interactive HEAD~3
 ```
