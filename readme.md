@@ -213,3 +213,9 @@ git stash apply stash@{0}
 ```sh
 git stash drop stash@{0}
 ```
+
+- Altera mensagem de um commit já existente no repostório remoto:
+
+```sh
+git commit --amend -m "Nova mensagem"
+```
