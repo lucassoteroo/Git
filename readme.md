@@ -238,6 +238,18 @@ git diff <commit>
 git commit <HEAD/commit>
 ```
 
+- Busca mudanças do servidor para a máquina local (antes do merge):
+
+```sh
+git fetch
+```
+
+- Busca mudanças em uma branch específica do servidor para a máquina local:
+
+```sh
+git fetch origin <branch>
+```
+
 > Apenas local 
 
 - Desfaz o último commit:
