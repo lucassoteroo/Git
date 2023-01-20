@@ -237,3 +237,29 @@ git diff <commit>
 ```sh
 git commit <HEAD/commit>
 ```
+
+> Apenas local 
+
+- Desfaz o último commit:
+
+```sh
+git reset --hard HEAD
+```
+
+- Desfaz quantos commits for indicado pelo número:
+
+```sh
+git reset --hard HEAD~1
+```
+
+- O commit é desfeito, porém as alterações não são perdidas, faltando adicionar e commitar:
+
+```sh
+git reset --mixed <commit/HEAD>
+```
+
+- o commit é desfeito, porém as alterações não são perdidas, faltando apenas commitar:
+
+```sh
+git reset --soft  <commit/HEAD>
+```
