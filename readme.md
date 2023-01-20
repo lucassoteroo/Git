@@ -69,3 +69,15 @@ git rm <arquivo>
 ```sh
 git rm -r <pasta/diretório>
 ```
+
+- Exibe histórico de commits:
+
+```sh
+git log
+```
+
+- Exibe histórico de commits em uma linha:
+
+```sh
+git log --oneline
+```
