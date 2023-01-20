@@ -219,3 +219,15 @@ git stash drop stash@{0}
 ```sh
 git commit --amend -m "Nova mensagem"
 ```
+
+- Exibe alterações dentro da linha da código:
+
+```sh
+git diff
+```
+
+- Exibe alterações dentro da linha da código de um commit específico:
+
+```sh
+git diff <commit>
+```
