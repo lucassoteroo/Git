@@ -231,3 +231,9 @@ git diff
 ```sh
 git diff <commit>
 ```
+
+- Revert o commit:
+
+```sh
+git commit <HEAD/commit>
+```
