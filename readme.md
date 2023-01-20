@@ -33,3 +33,27 @@ git add <arquivo/pasta>
 ```sh
 git add .
 ```
+
+- Commita alterações:
+
+```sh
+git commit <arquivo>
+```
+
+- Commita alterações com uma mensagen:
+
+```sh
+git commit <arquivo> -m "mensagem do commit"
+```
+
+- Commita alterações que já estejam em staged area:
+
+```sh
+git commit
+```
+
+- Commita alterações, com uma mensagem, que já estejam em staged area:
+
+```sh
+git commit -m "mensagem do commit"
+```
