@@ -141,3 +141,45 @@ git push <nome da tag>
 ```sh
 git push --tags
 ```
+
+- Cria uma branch:
+
+```sh
+git branch <nome da branch>
+```
+
+- Troca para uma branch já existente:
+
+```sh
+git checkout <nome da branch>
+```
+
+- Cria e troca automaticamente para a nova branch:
+
+```sh
+git checkout -b <nome da branch>
+```
+
+- Mergea a branch selecionada na branch atual:
+
+```sh
+git merge <nome da branch>
+```
+
+- Lista as branchs existentes:
+
+```sh
+git branch
+```
+
+- Lista as branchs já mergeadas:
+
+```sh
+git branch --merged
+```
+
+- Lista as branchs não mergeadas:
+
+```sh
+git branch --no-merged
+```
