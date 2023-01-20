@@ -15,3 +15,9 @@ git config --global user.email "seuemail@gmail.com"
 ```sh
 git init
 ```
+
+- Verifica estados das alterações:
+
+```sh
+git status
+```
