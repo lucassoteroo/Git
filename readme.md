@@ -57,3 +57,15 @@ git commit
 ```sh
 git commit -m "mensagem do commit"
 ```
+
+- Remove arquivo: 
+
+```sh
+git rm <arquivo>
+```
+
+- Remove pasta/diretório:
+
+```sh
+git rm -r <pasta/diretório>
+```
