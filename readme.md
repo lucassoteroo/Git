@@ -21,3 +21,15 @@ git init
 ```sh
 git status
 ```
+
+- Adiciona alterações para staged area:
+
+```sh
+git add <arquivo/pasta>
+```
+
+- Adiciona todas as alterações para staged area:
+
+```sh
+git add .
+```
