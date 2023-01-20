@@ -9,3 +9,9 @@ git config --global user.name "Seu Nome"
 ```sh
 git config --global user.email "seuemail@gmail.com"
 ```
+
+- Criar novo repositório git:
+
+```sh
+git init
+```
