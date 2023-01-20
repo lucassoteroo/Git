@@ -93,3 +93,21 @@ git remote
 ```sh
 git remote add origin <url do projeto>
 ```
+
+- Envia alterações para o repositório remoto:
+
+```sh
+git push
+```
+
+- Atualiza repositório local de acordo com o repositório remoto:
+
+```sh
+git pull
+```
+
+- Clona o repositório remoto já existente:
+
+```sh
+git clone <url do projeto>
+```
