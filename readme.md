@@ -183,3 +183,33 @@ git branch --merged
 ```sh
 git branch --no-merged
 ```
+
+- Cria um stash:
+
+```sh
+git stash
+```
+
+- Lista o stashs existentes:
+
+```sh
+git stash list
+```
+
+- Aplica o último stash:
+
+```sh
+git stash apply
+```
+
+- Aplica um stash específico:
+
+```sh
+git stash apply stash@{0}
+```
+
+- Apagar um stash:
+
+```sh
+git stash drop stash@{0}
+```
